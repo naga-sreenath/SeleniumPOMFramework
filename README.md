@@ -82,6 +82,7 @@ Execution Flow:
 
 TestNG initializes and loads the suite configuration.
 Test cases are picked up and executed based on the configuration.
+
 **Base Test Class**
 
 Role: Provides setup and teardown functionality for all tests.
@@ -96,6 +97,7 @@ Execution Flow:
 
 WebDriver setup is performed before each test method.
 WebDriver is closed after each test method.
+
 **Page Object Model (POM)**
 
 Role: Encapsulates page-specific functionality and elements in separate classes.
@@ -109,6 +111,7 @@ Execution Flow:
 
 Test methods interact with the page classes to perform actions on the web pages.
 Common methods from the base page class are utilized in page-specific classes.
+
 **Test Data Management**
 
 Role: Provides data-driven testing capabilities by supplying test data.
@@ -130,11 +133,13 @@ Log test results and steps.
 Capture screenshots and other relevant information.
 Generate and save HTML reports.
 Components:
+
 **Extent Reports:** Library used to create and manage test execution reports.
 Execution Flow:
 
 Logs and results are captured during test execution.
 Reports are generated and saved after all tests are completed.
+
 **Build Tool (Maven)**
 
 Role: Manages project dependencies and build lifecycle.
@@ -148,6 +153,7 @@ Execution Flow:
 
 Maven resolves dependencies and builds the project.
 Maven executes test cases as defined in the project configuration.
+
 **Selenium WebDriver**
 
 Role: Provides the capability to interact with web browsers.
